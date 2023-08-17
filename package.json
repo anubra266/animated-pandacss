@@ -5,7 +5,7 @@
   "scripts": {
     "prepare": "husky install",
     "preset": "pnpm --filter=animated-pandacss",
-    "web": "pnpm --filter=animated-pandacss-website"
+    "site": "pnpm --filter=site"
   },
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
