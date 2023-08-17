@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+### Added
+
+- Keep-a-changelog plugin added.
+
 ## [0.0.0] - 2023-08-17
 
 ### Added
