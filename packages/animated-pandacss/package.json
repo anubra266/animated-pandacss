@@ -1,0 +1,68 @@
+{
+  "name": "animated-pandacss",
+  "version": "0.0.0",
+  "description": "Use Animate.css with Panda CSS",
+  "keywords": [
+    "Animate.css",
+    "Panda CSS",
+    "Presets"
+  ],
+  "author": "Abraham Aremu <anubra266@gmail.com> (https://anubra266.com/)",
+  "homepage": "anubra266.github.io/animated-pandacss/",
+  "license": "MIT",
+  "repository": "ttps://github.com/anubra266/animated-pandacss",
+  "bugs": {
+    "url": "https://github.com/anubra266/animated-pandacss/issues"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "release-it": "release-it",
+    "prepack": "clean-package",
+    "postpack": "clean-package restore"
+  },
+  "dependencies": {
+    "@pandacss/dev": "0.11.1"
+  },
+  "devDependencies": {
+    "@pandacss/types": "0.11.1",
+    "@release-it/keep-a-changelog": "4.0.0",
+    "clean-package": "2.2.0",
+    "release-it": "16.1.5",
+    "tsup": "7.2.0"
+  },
+  "clean-package": {
+    "replace": {
+      "main": "dist/index.js",
+      "module": "dist/index.mjs",
+      "types": "dist/index.d.ts",
+      "exports": {
+        ".": {
+          "types": "./dist/index.d.ts",
+          "import": "./dist/index.mjs",
+          "require": "./dist/index.js"
+        },
+        "./package.json": "./package.json"
+      }
+    }
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "clean": true,
+    "dts": true,
+    "sourcemap": true,
+    "format": [
+      "esm",
+      "cjs"
+    ]
+  },
+  "main": "src/index.ts"
+}

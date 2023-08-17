@@ -1,0 +1,15 @@
+{
+  "git": {
+    "commitMessage": "chore: release ${npm.name} v${version}",
+    "tagName": "${npm.name}@${version}"
+  },
+  "plugins": {
+    "@release-it/keep-a-changelog": {
+      "addUnreleased": true,
+      "filename": "CHANGELOG.md"
+    }
+  },
+  "hooks": {
+    "before:init": ["pnpm build"]
+  }
+}
