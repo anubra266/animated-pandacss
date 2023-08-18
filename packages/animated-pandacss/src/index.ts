@@ -46,3 +46,5 @@ const preset: Preset = definePreset({
 })
 
 export default preset
+
+export { keyframes }
