@@ -5,9 +5,7 @@ import { keyframes } from './keyframes'
 
 const preset: Preset = definePreset({
   theme: {
-    extend: {
-      keyframes,
-    },
+    keyframes,
   },
   utilities: {
     extend: {
