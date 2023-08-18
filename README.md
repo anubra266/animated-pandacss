@@ -49,9 +49,15 @@ animated-pandacss
   <br />
 </div>
 
-![banner](https://github.com/anubra266/animated-pandacss/assets/30869823/68d809b1-1ef8-4a17-a180-ecacdf33516a#gh-dark-mode-only)
-![banner](https://github.com/anubra266/animated-pandacss/assets/30869823/059aa86d-3a0f-4633-b7c6-98aefb20d705#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/anubra266/animated-pandacss/assets/30869823/059aa86d-3a0f-4633-b7c6-98aefb20d705">
+  <img alt="Banner- Light Mode" src="https://github.com/anubra266/animated-pandacss/assets/30869823/059aa86d-3a0f-4633-b7c6-98aefb20d705">
+</picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/anubra266/animated-pandacss/assets/30869823/68d809b1-1ef8-4a17-a180-ecacdf33516a">
+  <img alt="Banner- Dark Mode" src="https://github.com/anubra266/animated-pandacss/assets/30869823/68d809b1-1ef8-4a17-a180-ecacdf33516a">
+</picture>
 
 ## Install
 
