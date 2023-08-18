@@ -49,6 +49,10 @@ animated-pandacss
   <br />
 </div>
 
+![banner](https://github.com/anubra266/animated-pandacss/assets/30869823/68d809b1-1ef8-4a17-a180-ecacdf33516a#gh-dark-mode-only)
+![banner](https://github.com/anubra266/animated-pandacss/assets/30869823/059aa86d-3a0f-4633-b7c6-98aefb20d705#gh-light-mode-only)
+
+
 ## Install
 
 ```bash
