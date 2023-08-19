@@ -52,11 +52,11 @@ animated-pandacss
 ## Install
 
 ```bash
-npm i --save animated-pandacss
+npm i -D animated-pandacss
 #or
-yarn add animated-pandacss
+yarn add -D animated-pandacss
 #or
-pnpm add animated-pandacss
+pnpm i -D animated-pandacss
 ```
 
 ## Usage

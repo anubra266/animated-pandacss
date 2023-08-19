@@ -1,6 +1,6 @@
-export const installScript = `npm install -D animated-pandacss
-yarn install -D animated-pandacss
-pnpm install -D animated-pandacss`
+export const installScript = `npm i -D animated-pandacss
+yarn add -D animated-pandacss
+pnpm i -D animated-pandacss`
 
 export const addToPreset = `import { defineConfig } from '@pandacss/dev'
 
