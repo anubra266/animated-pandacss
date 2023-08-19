@@ -49,6 +49,10 @@ animated-pandacss
   <br />
 </div>
 
+## About
+
+It's a preset for [Panda CSS](https://panda-css.com) that adds [Animate.css](https://animate.style) animations to your project.
+
 ## Install
 
 ```bash
