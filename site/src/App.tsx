@@ -93,8 +93,8 @@ function App() {
             animationDelay: '0.7s',
             animationFillMode: 'backwards',
             transition: 'transform 0.2s ease-out',
-            bg: 'foreground',
-            color: 'background',
+            bg: 'hsl(240 10% 3.9%)',
+            color: 'hsl(0 0% 98%)',
 
             textAlign: 'left',
             transform: { md: 'none !important' },
@@ -104,14 +104,14 @@ function App() {
             gap: '3',
 
             _dark: {
-              bg: 'background',
               borderLeftWidth: '1px',
               borderColor: 'border',
-              color: 'foreground',
             },
           })}
         >
-          <section className={flex({ gap: '1' })}>
+          <section
+            className={flex({ gap: '1', position: 'sticky', top: '0', bg: 'hsl(240 10% 3.9%)' })}
+          >
             <a
               href="https://github.com/anubra266"
               target="_blank"
