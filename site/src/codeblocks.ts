@@ -5,8 +5,8 @@ pnpm install -D animated-pandacss`
 export const addToPreset = `import { defineConfig } from '@pandacss/dev'
 
 export default defineConfig({
-  //...
-  presets: ['@pandacss/dev/presets', 'animated-pandacss'],
+  // Other config...
+  presets: ['animated-pandacss', '@pandacss/dev/presets'],
 })
 `
 

@@ -61,15 +61,14 @@ pnpm add animated-pandacss
 
 ## Usage
 
-Add to presets in your [Panda](https://panda-css.com) config.
+Add as first item of presets in your [Panda](https://panda-css.com) config.
 
 ```ts
 import { defineConfig } from '@pandacss/dev'
 
 export default defineConfig({
-  //...
-
-  presets: ['@pandacss/dev/presets', 'animated-pandacss'],
+  // Other config...
+  presets: ['animated-pandacss', '@pandacss/dev/presets'],
 })
 ```
 

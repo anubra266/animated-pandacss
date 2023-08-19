@@ -230,7 +230,7 @@ function App() {
           <h2 className={css({ textStyle: 'h2', fontWeight: 'semibold' })}>Usage</h2>
 
           <div className={stack({ gap: '2' })}>
-            Add to presets in your panda config
+            Add as first item of presets in your panda config
             <Code code={addToPreset} />
           </div>
           <div className={stack({ gap: '2' })}>
