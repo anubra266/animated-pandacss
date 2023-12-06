@@ -139,7 +139,7 @@ importers:
         version: 6.0.0(eslint@8.47.0)(typescript@5.1.6)
       '@vitejs/plugin-react':
         specifier: ^4.0.3
-        version: 4.0.3(vite@4.4.8)
+        version: 4.0.3(vite@4.4.12)
       eslint:
         specifier: ^8.45.0
         version: 8.47.0
@@ -153,11 +153,11 @@ importers:
         specifier: ^5.0.2
         version: 5.1.6
       vite:
-        specifier: ^4.4.5
-        version: 4.4.8(@types/node@20.4.9)
+        specifier: ^4.4.12
+        version: 4.4.12(@types/node@20.4.9)
       vite-tsconfig-paths:
         specifier: 4.2.0
-        version: 4.2.0(typescript@5.1.6)(vite@4.4.8)
+        version: 4.2.0(typescript@5.1.6)(vite@4.4.12)
 
 packages:
 
@@ -2159,7 +2159,7 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vitejs/plugin-react@4.0.3(vite@4.4.8):
+  /@vitejs/plugin-react@4.0.3(vite@4.4.12):
     resolution: {integrity: sha512-pwXDog5nwwvSIzwrvYYmA2Ljcd/ZNlcsSG2Q9CNDBwnsd55UGAyr2doXtB5j+2uymRCnCfExlznzzSFbBRcoCg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2169,7 +2169,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.22.5(@babel/core@7.22.9)
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.22.9)
       react-refresh: 0.14.0
-      vite: 4.4.8(@types/node@20.4.9)
+      vite: 4.4.12(@types/node@20.4.9)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2990,8 +2990,8 @@ packages:
       typescript: 5.1.6
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.4.8(@types/node@20.4.7)
-      vitefu: 0.2.4(vite@4.4.8)
+      vite: 4.4.12(@types/node@20.4.7)
+      vitefu: 0.2.4(vite@4.4.12)
       which-pm: 2.0.0
       yargs-parser: 21.1.1
       zod: 3.21.4
@@ -3069,8 +3069,8 @@ packages:
       typescript: 5.1.6
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.4.8(@types/node@20.4.9)
-      vitefu: 0.2.4(vite@4.4.8)
+      vite: 4.4.12(@types/node@20.4.9)
+      vitefu: 0.2.4(vite@4.4.12)
       which-pm: 2.0.0
       yargs-parser: 21.1.1
       zod: 3.21.4
@@ -7388,6 +7388,14 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /rollup@3.29.4:
+    resolution: {integrity: sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
 
   /run-applescript@5.0.0:
     resolution: {integrity: sha512-XcT5rBksx1QdIhlFOCtgZkB99ZEouFZ1E2Kc2LHqNW13U3/74YGdkQRmThTwxy4QIyookibDKYZOPqX//6BlAg==}
@@ -8347,7 +8355,7 @@ packages:
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
 
-  /vite-tsconfig-paths@4.2.0(typescript@5.1.6)(vite@4.4.8):
+  /vite-tsconfig-paths@4.2.0(typescript@5.1.6)(vite@4.4.12):
     resolution: {integrity: sha512-jGpus0eUy5qbbMVGiTxCL1iB9ZGN6Bd37VGLJU39kTDD6ZfULTTb1bcc5IeTWqWJKiWV5YihCaibeASPiGi8kw==}
     peerDependencies:
       vite: '*'
@@ -8358,11 +8366,82 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.2(typescript@5.1.6)
-      vite: 4.4.8(@types/node@20.4.9)
+      vite: 4.4.12(@types/node@20.4.9)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
+
+  /vite@4.4.12(@types/node@20.4.7):
+    resolution: {integrity: sha512-KtPlUbWfxzGVul8Nut8Gw2Qe8sBzWY+8QVc5SL8iRFnpnrcoCaNlzO40c1R6hPmcdTwIPEDkq0Y9+27a5tVbdQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      '@types/node': 20.4.7
+      esbuild: 0.18.16
+      postcss: 8.4.28
+      rollup: 3.29.4
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: false
+
+  /vite@4.4.12(@types/node@20.4.9):
+    resolution: {integrity: sha512-KtPlUbWfxzGVul8Nut8Gw2Qe8sBzWY+8QVc5SL8iRFnpnrcoCaNlzO40c1R6hPmcdTwIPEDkq0Y9+27a5tVbdQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      '@types/node': 20.4.9
+      esbuild: 0.18.16
+      postcss: 8.4.28
+      rollup: 3.29.4
+    optionalDependencies:
+      fsevents: 2.3.2
 
   /vite@4.4.8(@types/node@20.4.7):
     resolution: {integrity: sha512-LONawOUUjxQridNWGQlNizfKH89qPigK36XhMI7COMGztz8KNY0JHim7/xDd71CZwGT4HtSRgI7Hy+RlhG0Gvg==}
@@ -8395,7 +8474,7 @@ packages:
       '@types/node': 20.4.7
       esbuild: 0.18.16
       postcss: 8.4.28
-      rollup: 3.26.3
+      rollup: 3.29.4
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
@@ -8431,11 +8510,12 @@ packages:
       '@types/node': 20.4.9
       esbuild: 0.18.16
       postcss: 8.4.28
-      rollup: 3.26.3
+      rollup: 3.29.4
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
 
-  /vitefu@0.2.4(vite@4.4.8):
+  /vitefu@0.2.4(vite@4.4.12):
     resolution: {integrity: sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -8443,7 +8523,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.8(@types/node@20.4.9)
+      vite: 4.4.12(@types/node@20.4.9)
 
   /vscode-css-languageservice@6.2.6:
     resolution: {integrity: sha512-SA2WkeOecIpUiEbZnjOsP/fI5CRITZEiQGSHXKiDQDwLApfKcnLhZwMtOBbIifSzESVcQa7b/shX/nbnF4NoCg==}
