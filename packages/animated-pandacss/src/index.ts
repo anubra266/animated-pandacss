@@ -12,7 +12,7 @@ const preset: Preset = definePreset({
       animationName: {
         className: 'animation-name',
         values: 'animationName',
-        transform(value: string) {
+        transform(value) {
           return {
             animationName: value,
             animationDuration: '1s',
