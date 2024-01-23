@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.0.3] - 2024-01-22
+
 - Updated Pandacss deps to dev
 
 ## [0.0.2] - 2023-08-18
