@@ -2,10 +2,14 @@ import { definePreset } from '@pandacss/dev'
 import { type Preset } from '@pandacss/types'
 
 import { keyframes } from './keyframes'
+import { animationTokens } from './tokens'
 
 const preset: Preset = definePreset({
   theme: {
-    keyframes,
+    extend: {
+      keyframes,
+      tokens: animationTokens,
+    },
   },
   utilities: {
     extend: {
