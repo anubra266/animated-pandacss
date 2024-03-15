@@ -542,34 +542,6 @@ export const keyframes = defineKeyframes({
       transform: 'translate3d(-100%, 100%, 0)',
     },
   },
-  flip: {
-    '0%': {
-      WebkitTransform: 'perspective(400px) scaleX(1) translateZ(0)      rotateY(-1turn)',
-      transform: 'perspective(400px) scaleX(1) translateZ(0) rotateY(-1turn)',
-      animationTimingFunction: 'ease-out',
-    },
-    '40%': {
-      WebkitTransform: 'perspective(400px) scaleX(1) translateZ(150px)      rotateY(-190deg)',
-      transform: 'perspective(400px) scaleX(1) translateZ(150px) rotateY(-190deg)',
-      animationTimingFunction: 'ease-out',
-    },
-    '50%': {
-      WebkitTransform: 'perspective(400px) scaleX(1) translateZ(150px)      rotateY(-170deg)',
-      transform: 'perspective(400px) scaleX(1) translateZ(150px) rotateY(-170deg)',
-      animationTimingFunction: 'ease-in',
-    },
-    '80%': {
-      WebkitTransform:
-        'perspective(400px) scale3d(0.95, 0.95, 0.95)      translateZ(0) rotateY(0deg)',
-      transform: 'perspective(400px) scale3d(0.95, 0.95, 0.95) translateZ(0)      rotateY(0deg)',
-      animationTimingFunction: 'ease-in',
-    },
-    to: {
-      WebkitTransform: 'perspective(400px) scaleX(1) translateZ(0) rotateY(0deg)',
-      transform: 'perspective(400px) scaleX(1) translateZ(0) rotateY(0deg)',
-      animationTimingFunction: 'ease-in',
-    },
-  },
   flipInX: {
     '0%': {
       transform: 'perspective(400px) rotateX(90deg)',
@@ -906,3 +878,33 @@ export const keyframes = defineKeyframes({
     },
   },
 })
+
+// some how causees compile error
+// flip: {
+//   '0%': {
+//     WebkitTransform: 'perspective(400px) scaleX(1) translateZ(0)      rotateY(-1turn)',
+//     transform: 'perspective(400px) scaleX(1) translateZ(0) rotateY(-1turn)',
+//     animationTimingFunction: 'ease-out',
+//   },
+//   '40%': {
+//     WebkitTransform: 'perspective(400px) scaleX(1) translateZ(150px)      rotateY(-190deg)',
+//     transform: 'perspective(400px) scaleX(1) translateZ(150px) rotateY(-190deg)',
+//     animationTimingFunction: 'ease-out',
+//   },
+//   '50%': {
+//     WebkitTransform: 'perspective(400px) scaleX(1) translateZ(150px)      rotateY(-170deg)',
+//     transform: 'perspective(400px) scaleX(1) translateZ(150px) rotateY(-170deg)',
+//     animationTimingFunction: 'ease-in',
+//   },
+//   '80%': {
+//     WebkitTransform:
+//       'perspective(400px) scale3d(0.95, 0.95, 0.95)      translateZ(0) rotateY(0deg)',
+//     transform: 'perspective(400px) scale3d(0.95, 0.95, 0.95) translateZ(0)      rotateY(0deg)',
+//     animationTimingFunction: 'ease-in',
+//   },
+//   to: {
+//     WebkitTransform: 'perspective(400px) scaleX(1) translateZ(0) rotateY(0deg)',
+//     transform: 'perspective(400px) scaleX(1) translateZ(0) rotateY(0deg)',
+//     animationTimingFunction: 'ease-in',
+//   },
+// },
