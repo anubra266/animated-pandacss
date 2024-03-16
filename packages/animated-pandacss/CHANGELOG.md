@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Fix preset config
+
 ## [0.0.3] - 2024-01-22
 
 - Updated Pandacss deps to dev
